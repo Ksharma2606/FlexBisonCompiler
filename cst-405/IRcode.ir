@@ -1,0 +1,7 @@
+num1 = 2
+num2 = 3
+ $t0 = num1 * num2
+num1 = $t0
+li $a0, num1
+li $v0, 1
+syscall
